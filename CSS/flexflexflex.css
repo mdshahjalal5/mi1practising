@@ -1,3 +1,13 @@
 ul  li{
  display:inline-block;
 }
+ul{
+    display: flex;
+}
+
+header{
+    display: block;
+}
+P{
+    kbita tmr sathe jeno thakte pari allh tmi amdr ke eksathe thakte dio sarajiboner jonno.
+}

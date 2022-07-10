@@ -1,0 +1,28 @@
+.vul{
+    display:block;
+    background:slateblue;
+    padding-left:0;
+    text-align:center;
+    visibility:hidden;
+    opacity:0;
+}
+.vul li{
+    padding-left:0;
+    border:1px solid;
+    margin:0;
+}
+ li{
+    margin-left:20px;
+}
+ul{
+    list-style:none;
+    display:flex;
+}
+a{
+    text-decoration:none;
+}
+
+ul li:hover .vul{
+visibility:visible;
+ opacity:1;
+}

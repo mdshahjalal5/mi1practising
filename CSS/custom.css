@@ -1,0 +1,38 @@
+:root{
+    --side-width:200px;
+    --dark-border:2px solid black;
+    --main-color:orange;
+    --border-color:slateblue;
+    --background-color:slateblue;
+}
+h1{
+    color:var(--main-color);
+}
+p{
+    color:var(--main-color);
+}
+h2{
+    border:2px solid var(--main-color);
+}
+h6{
+    background:var(--background-color);
+    color:var(--main-ccurrentcolor);
+}
+
+footer{
+    color:var(--main-color);
+    border:var(--dark-border);
+    clear:both;
+}
+.side-nav, .blogs{
+    height:500px;
+    float:left;
+}
+aside{
+    background-color:springgreen;
+    width:var(--side-width);
+}
+.blogs{
+    background-color:tomato;
+    width:calc(100% - 3*var(--side-width));
+}
